@@ -21,6 +21,7 @@ def largestPalindrome():
         a -= 1
     return largestPalindrome
 
+# Checks if integer val is a palindrome
 def isPalindrome(val):
     return str(val) == str(val)[::-1]
 
